@@ -6,9 +6,11 @@ with open("README.md", "r", encoding='UTF-8') as fh:
 with open("requirements.txt", "r", encoding='UTF-8') as fh:
     requirements = fh.read().split("\n")
 
+from config import version
+
 setup(
     name="D3adC0re Tools",
-    version="0.0.2",
+    version=version,
     description="D3adC0re Tools",
     author="Purpl3",
     author_email="d3adc0re@suntimedev.com",
